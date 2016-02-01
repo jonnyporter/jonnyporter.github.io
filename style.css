@@ -1,0 +1,58 @@
+.section1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(swimming-kids.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+}
+.section2 {
+  background: #008cba no-repeat center center fixed;
+  background-size: cover;
+  height: 90vh;
+}
+.section3 {
+  background: #1D2023 no-repeat center center fixed;
+  background-size: cover;
+  height: 8vh;
+  padding-top: 20px;
+}
+.jumbotron {
+  background: none;
+  color: white;
+}
+.jumbotron p {
+  margin-top: 40px;
+}
+.learn-more {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(learn-more.jpg);
+  height: 350px;
+  width: 350px;
+  background-size: cover;
+  border-radius: 5px;
+  padding: 100px;
+  position: absolute;
+  margin: -5% 40%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+}
+.right-side {
+  position: absolute;
+  right: 200px;
+}
+.large-white-text {
+  color: white;
+  font-size: 30px;
+}
+.white-text {
+  color: white;
+  position: absolute;
+  left: 30px;
+}
+.who-we-are {
+  background: url(who-we-are.jpg);
+  border-radius: 5px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+  height: 600px;
+  width: 430px;
+  position: absolute;
+  margin: 2% 4%;
+  float: left;
+}

@@ -1,1 +1,61 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="font-awesome.min.css" media="screen">
+  <link rel="stylesheet" href="bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="style.css" media="screen">
+  <link rel='shortcut icon' href='favicon-life-ring.ico' type='image/x-icon' />
+  <title>Swim Lessons</title>
+</head>
+
+<body>
+  <section class="section1">
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Meridian Swim Lessons</h1>
+        <p>Want your child to learn how to swim but, need a trusted and less expensive solution? We can help. Learn more or sign up now!</p>
+        <button data-toggle="modal" data-target="#basicModal" class="btn btn-primary btn-lg">Sign Up</button>
+      </div>
+      <div class="learn-more">
+        <p><a href="#section3" class="btn btn-success btn-lg">Learn more</a></p>
+      </div>
+
+  </section>
+  <section class="section2">
+    <div class="who-we-are">
+    </div>
+  </section>
+  <section id="section3" class="section3">
+    <p class="white-text">
+      Made By <a href="http://jonnyporter.com" target="_blank">Jonny Porter</a>
+    </p>
+  </section>
+  <div class="modal" id="basicModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+          <h4 class="modal-title">Sign Up With Your Email</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="control-label" for="focusedInput">Email</label>
+            <input class="form-control" id="focusedInput" type="text" placeholder="Email">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="signUp">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="jquery-2.2.0.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="bootstrap.min.js"></script>
+</body>
+
+</html>
