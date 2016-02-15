@@ -5,12 +5,12 @@
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
 }
 .section2 {
-  background: #008cba no-repeat center center fixed;
+  background: white;
   background-size: cover;
   height: 90vh;
 }
 .section3 {
-  background: #1D2023 no-repeat center center fixed;
+  background: #1D2023;
   background-size: cover;
   height: 8vh;
   padding-top: 20px;
@@ -47,12 +47,10 @@
   left: 30px;
 }
 .who-we-are {
-  background: url(who-we-are.jpg);
-  border-radius: 5px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+  float: left;
+  border-radius: 2px;
   height: 600px;
   width: 430px;
-  position: absolute;
+  position: relative;
   margin: 2% 4%;
-  float: left;
 }
