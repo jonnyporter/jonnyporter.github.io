@@ -2,7 +2,6 @@
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(swimming-kids.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
 }
 #section2 {
   background: white;
@@ -30,9 +29,8 @@
   padding: 100px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
 }
-.right-side {
-  position: absolute;
-  right: 200px;
+.center-text {
+  text-align: center;
 }
 .large-white-text {
   color: white;
@@ -55,7 +53,7 @@
 .learn-more-story {
   line-height: 2em;
   font-size: larger;
-  margin: 1% 1% 1% 1%;
+  margin-left: 10px;
   padding: 0;
 }
 .lower-anchor {
