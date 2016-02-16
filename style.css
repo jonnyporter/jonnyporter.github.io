@@ -1,3 +1,5 @@
+@import url('mobile.css') only screen and (max-width: 1200px);
+
 #section1 {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(swimming-kids.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -25,12 +27,9 @@
 .learn-more {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(learn-more.jpg);
   height: 350px;
-  width: 350px;
   background-size: cover;
   border-radius: 5px;
   padding: 100px;
-  position: absolute;
-  margin: -5% 40%;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
 }
 .right-side {
@@ -53,7 +52,17 @@
   width: 430px;
   position: relative;
   margin: 2% 4%;
+  padding: 0;
 }
 .learn-more-story {
-  line-height: line-height: 1.7em;
+  line-height: 2em;
+  font-size: larger;
+  margin: 1% 1% 1% 1%;
+  padding: 0;
+}
+
+.lower-anchor {
+  left: 75%;
+  position: absolute;
+  bottom: -80%;
 }
